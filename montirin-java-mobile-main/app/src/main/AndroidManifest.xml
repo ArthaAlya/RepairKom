@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.repairkom.app">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="com.repairkom.app.Montirin"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="AllowBackup">
+
+        <activity
+            android:name="com.repairkom.app.service.ServisLainnyaActivity"
+            android:label="Servis Lainnya"
+            android:parentActivityName="com.repairkom.app.activity.HomeActivity" />
+        <activity
+            android:name="com.repairkom.app.service.ServiceHpActivity"
+            android:label="Servis HP"
+            android:parentActivityName="com.repairkom.app.activity.HomeActivity" />
+        <activity
+            android:name="com.repairkom.app.service.ServisAcActivity"
+            android:label="Servis AC"
+            android:parentActivityName="com.repairkom.app.activity.HomeActivity" />
+        <activity
+            android:name="com.repairkom.app.service.ServisElektronikActivity"
+            android:label="Servis Elektronik"
+            android:parentActivityName="com.repairkom.app.activity.HomeActivity" />
+        <activity
+            android:name="com.repairkom.app.service.ServisMotorActivity"
+            android:label="Servis Motor"
+            android:parentActivityName="com.repairkom.app.activity.HomeActivity" />
+        <activity
+            android:name="com.repairkom.app.service.ServisMobilActivity"
+            android:label="Servis Mobil"
+            android:parentActivityName="com.repairkom.app.activity.HomeActivity" />
+        <activity
+            android:name="com.repairkom.app.activity.AccountActivity"
+            android:label="Akun Saya"
+            android:parentActivityName="com.repairkom.app.activity.HomeActivity" />
+        <activity android:name="com.repairkom.app.activity.HomeActivity" />
+        <activity
+            android:name="com.repairkom.app.activity.RegisterActivity"
+            android:label="Daftar Akun Baru" />
+        <activity
+            android:name="com.repairkom.app.activity.LoginActivity"
+            android:label="Login Mitra Montirin"
+            android:parentActivityName="com.repairkom.app.activity.HomeActivity" />
+        <activity
+            android:name="com.repairkom.app.activity.SplashActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
