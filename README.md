@@ -1,5 +1,6 @@
 # RepairKom
 Tugas Mobile Programming 2022
+
 Kelompok 3
 
 Anggota:
@@ -7,4 +8,4 @@ Anggota:
 - Andrea Rahmania
 - Alya Arthamevia S.
 - Jasmine Aulia P.
-- Rerindra F.
+- Rerindra Fiktianti
