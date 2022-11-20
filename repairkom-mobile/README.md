@@ -1,2 +1,2 @@
-# montirin-java-mobile
-Project aplikasi montirin jasa servis online berbasis java dengan firebase realtime database
+# RepairKom Mobile
+Project aplikasi Repairkom, jasa servis elektronik komputer, laptop, dan handphone online berbasis Java dengan Firebase Realtime Database
